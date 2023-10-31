@@ -1,0 +1,12 @@
+
+let username = 'my name';
+let money = 1000;
+
+let bonusvtornik = money + 50;
+let bonuschetverg = bonusvtornik + 50;
+let bonussubbota = bonuschetverg + 50;
+let minusbonus = bonussubbota - 3 * 6;
+
+console.log('Воскресенье')
+console.log('Ваш баланс: ', minusbonus)
+
